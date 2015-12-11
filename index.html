@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html style = "height:100%">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, height = device-height , initial-scale=1, minimum-scale = 0.8 , maximum-scale=2, user-scalable=no">
+	<!--
+    initial-scale 表初始比例 ＝> 1 = 100% 可填0.1~10
+    minimum-scale: 最小可以縮放到 0.8 比例
+    maximum-scale: 最大可以縮放到 2.0 比例
+    user-scalable: 是否允許使用者進行縮放。no 不允許
+    -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+    	@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+    	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+    	@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
+    	@import url(https://fonts.googleapis.com/css?family=Courgette);
+    	@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+    </style>
+
+    <link rel="stylesheet" href="index.css" type="text/css" />
+
+	<body style = "height:100%" >
+		<nav class = "navbar navbar-fixed-top " style = "height:53px"role = "navigation">
+			<div class = "container-fluid" style = "height:53px; margin:0px; padding:0px">
+				<div class = "col-md-3" style = "width:350px;height:30px">
+				</div>
+				<ul class = "navbar-nav nav" style = "padding-left:60px">
+					<li class = "nav-li" id = "nav-li1">
+						<a href = "#wrap" class = "nav-text page-scroll" hover:style="background-color:black"> HOME</a>
+					</li>
+					<li class = "nav-li" id = "nav-li2">
+						<a href = "#about" class = "nav-text"> ABOUT</a>
+					</li>
+					<li class = "nav-li" id = "nav-li3">
+						<a href = "#resume" class = "nav-text"> RESUME</a>
+					</li>
+					<li class = "nav-li" id = "nav-li4">
+						<a href = "#motto" class = "nav-text"> MOTTO</a>
+					</li>
+					<li class = "nav-li" id = "nav-li5">
+						<a href = "#contact" class = "nav-text"> CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class = "container-fluid" id = "wrap" style= "height:100%">
+			<div id = "word">
+				<a id = "wrap-name" href = "#about">   Meng-Tse Hang</a>
+				<p style = "text-shadow: 1px 2px 2px #FFDAB9"> Just a boy, catching his dream , step by step ...</p>
+			</div>
+			<!--
+			<div class = "smoothscroll" style = "margin-top:52%;">
+				<a class = "center-block" href = "#about"><i style:hover= "color:white;"class = "fa fa-chevron-down"></i></a>
+			</div>
+			-->
+		</div>
+		<div class = "container-fluid" id = "about">
+			<img src = "pic/bighead.jpg" id = "about-pic-header" class = "img-thumbnail" alt = "Bigheader"></img>
+			<div class= "container-fluid" id = "about-header">
+				<p style = "border-bottom : 2px solid black;"> -  ABOUT - </p>
+			</div>
+			<div class = "center-block" id = "about-word">
+				<p id = "about-name"> Meng-Tse Hang (杭孟澤）</p>
+				<p id = "about-story"> Just an ordinary Taiwanese College Student, who has various crazy ideas in life. Meng-Tse is a do-spirit person. He likes to create and try something new and funny. Sometimes Meng-Tse is few words, cause he is thinking while so many feelings touching his heart. He dreams, even it seems unreachable. But so what...</p>
+				<p id = "about-story-end" style = "margin-top:12px;">「 No matter how hard it is,</p>
+				<p id = "about-story-end" style = "text-align:right"> it's enough to laugh while pursuing. 」 </p>
+				<!--他總是會幻想很多不同於常人的有趣idea 喜歡在生活中找尋一些有趣的事情來做,心懷一股大志,即使夢想遙不可及,那又怎樣,我相信,即使過程中再累,最後笑著就夠了-->
+			</div>
+			<div class = "center-block" id = "icon-social">
+				<ul class = "center-block">
+					<li >
+						<a href = "https://www.facebook.com/mengzeh" target = "_new"><i class="fa fa-facebook-square"></i></a>
+					</li>
+					<li>
+						<a href = "https://github.com/TseHang" target = "_new"><i class="fa fa-github-square"></i></a>
+					</li>
+					<li>
+						<a href = "https://www.instagram.com/hang_tse/" target = "_new"><i class = "fa fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+			<!-- About-scroll-down-icon-->
+			<div class = "smoothscroll" style = "padding-top:0">
+				<a class = "center-block" href = "#resume"><i class = "fa fa-chevron-down"></i></a>
+			</div>
+		</div>
+		
+		<div class = "center-block" id = "resume">
+
+			<!-- resume-header-->
+			<div id = "resume-header">
+				<p style = "border-bottom : 2px solid black; color:black">-  RESUME - </p>
+			</div>
+		</div>
+		<div class = "container-fluid resume-word" style = "height:100%; margin-top:3px;">
+			<div class = "center-block" id = "resume-education" >
+				<div class = "resume-left">
+					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #FF8C00;">EDUCATION</p>
+				</div>
+				<div class = "resume-right">
+					<p class = "resume-word-name" style = "font-weight:bold;">National Cheng Kung University</p>
+					<p style = "font-size:16px;"> &nbsp;&nbsp;&nbsp;&nbsp;Bachelor in Computer Science and Information Engineering</p>
+					<p style = "text-align:right;margin-top:8px"> • Sep. 2013 ~ June. 2017 </p>
+					<p class = "resume-word-name" style = "font-weight:bold;">The Affiliated Senior High School of National Taiwan Normal University</p>
+					<p style = "margin-top:8px"> - The PR (Public relation Practitioner) of 38th Club Conference
+					<p> - Join the guitar club.</p>
+					<p style = "text-align:right"> • Sep. 2010 ~ June. 2013 </p>
+				</div>
+			</div>
+			<div class = "center-block" id = "resume-word" >
+				<div class = "resume-left">
+					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #66CDAA;">WORK</p>
+				</div>
+				<div class = "resume-right">
+					<p class = "resume-word-name" style = "font-weight:bold;">Website Designing Engineer (Part-Time of Job) </p>
+					<p style = "margin-top:12px; text-align:right;"> • July. 2015 ~ still </p>
+					<p class = "resume-word-name" style = "font-weight:bold;">The Intern in Tripda</p>
+					<p style = "font-size:16px"> &nbsp;&nbsp;&nbsp;&nbsp;Tripda is a like Startup company in Taiwan. The core value is to prompt carpooling (riding together), a rare culture in Taiwan, so facing new challenges and problems everyday. We do marketing from the base, like joining local activities or distributing the fliers.
+					<p style = "margin-top:12px"> - The intern.
+					<p style = "text-align:right"> • June. 2015 </p>
+					<p class = "resume-word-name" style = "font-weight:bold;">The Expert in Campus of Windows8 at Micorsoft Company in Taiwan</p>
+					<p style = "font-size:16px;"> &nbsp;&nbsp;&nbsp;&nbsp;The experts have to market Windows8, and then ask for filling a questionnaire. Not like general marketing way like one-to-one, I held many small speechs, and asked teachers for giving me some time to speeching.</p>
+					<p style = "margin-top:12px"> - The third prize in the final marketing competition.</p>
+					<p> - Utilize the Social Network Tools to propaganda and prompt my speeching skills.</p>
+					<p style = "text-align:right;"> • Apr. 2013 ~ June. 2013 </p>
+				</div>
+			</div>
+			<div class = "center-block" id = "resume-extra" >
+				<div class = "resume-left" style = "width:16%">
+					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #FF4500;">EXTRA - ACTIVITIES</p>
+				</div>
+				<div class = "resume-right">
+					<p class = "resume-word-name" style = "font-weight:bold;">The Manager of Activity’s Department of CSIE Student Association.</p>
+					<p style = "margin-top:12px;"> - Be active to get more enterprise sponsor.</p>
+					<p> - Be good at negotiating, project managing, allocating and schedule planning.</p>
+					<p style = "text-align:right;"> • June. 2014 ~ July. 2015</p>
+					<p class = "resume-word-name" style = "font-weight:bold;">The President of Christmas Dance Party United by Five Student Association</p>
+					<p style = "font-size:16px"> &nbsp;&nbsp;&nbsp;&nbsp;A crazy party for college students in the night-club. They can dance and drink without hesitation.</p>
+					<p style = "margin-top:12px"> - The tickets were sold out in one week.
+					<p style = "text-align:right"> • July. 2014 ~ Dec. 2014 </p>
+					<p class = "resume-word-name" style = "font-weight:bold;">2015 Yunnan Servic Learning Program </p>
+					<p style = "font-size:16px"> &nbsp;&nbsp;&nbsp;&nbsp;It's an International Volunteer Plan held by NCKU Service Learning Center.
+					<p style = "margin-top:12px;text-align:right;"> Preparing: • Oct. 2014 ~ July. 2015 </p>
+					<p style = "text-align:right;"> Working: • July. 2, 2015 ~ July. 15, 2015 </p>
+				</div>
+			</div>
+		</div>
+		<div class = "container-fluid resume-word" style = "height:134%">
+			<!-- About-scroll-down-icon-->
+			<div class = "smoothscroll" style = "padding-top:69%">
+				<a class = "center-block" href = "#motto"><i class = "fa fa-chevron-down"></i></a>
+			</div>
+		</div>
+		
+		<div class = "center-block thumbnail carousel slide" data-ride="carousel" data-interval = "3000" id = "motto" style = "width:88%">
+			<div class= "container-fluid" id = "motto-header">
+				<p style = "border-bottom : 2px solid black; color:black ;"> -  MOTTO - </p>
+			</div>
+			<!-- Indicators -->
+		    <ol class="carousel-indicators">
+		    	<li data-target="motto" data-slide-to="0" class="active"></li>
+		    	<li data-target="motto" data-slide-to="1"></li>
+		    </ol>
+
+			<!-- Wrapper for slides -->
+			<div class = "center-block carousel-inner " id = "motto-box" role="listbox">
+				<div class="item active motto-word" >
+					<p id = "motto1"> Nothing is more valuable than youth.<br> Nothing is easier wasted than youth.</p>
+					<div class = "center-block" id = "motto1-chinese" >
+						<img class = "center-block" style = "width:500px;"src = "pic/motto1.png"></img>
+					</div>
+				</div>
+
+				<div class="item motto-word">
+					<p id = "motto2"> Who are you ? Where are you ? <br><br> When ? What time ? <br><br><br> Take out the trash and see.</p>
+					<p id = "motto2-sub" style = "color:rgba(0,0,30,0.8); text-shadow: 0px 0px 0px white;"> From the film &lt;&nbsp;Peaceful warrior&nbsp;&gt;</p>
+					<p id = "motto2-sub" style = "color:rgba(0,0,30,0.8); text-shadow: 0px 0px 0px white;">&lt;&nbsp;深夜加油站遇見蘇格拉底&nbsp;&gt;</p>
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+		    <a class="left carousel-control" href = "#motto" role="button" data-slide = "prev">
+		    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    	<span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href = "#motto" role="button" data-slide = "next">
+		    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>	
+		    	<span class="sr-only">Next</span>	    	
+		    </a>
+		</div>
+
+		<div class = "container" style = "height:23%">
+			<!-- About-scroll-down-icon-->
+			<div class = "smoothscroll" style = "padding-top:5%">
+				<a class = "center-block" href = "#contact"><i class = "fa fa-chevron-down"></i></a>
+			</div>
+		</div>
+		<div class = "container-fluid" id = "contact" style = "height:68%; padding:0px;">
+			<div class = "container-fluid" id = "contact-box">
+				<div class = "container-fluid" style = "background-color: rgba(230, 230 , 230 , 0.4);height:100%; ">
+					<div class = "row">
+						<div class = "col-md-6" style = "text-align:right; padding:2% 0px 0px 0px">
+							<img class = "img-thumbnail" id = "contact-img" src = "pic/contact.jpg"></img>
+						</div>
+						<div class = "col-md-6">
+							<p id = "contact-name" >Meng - Tse Hang</p>
+							<p class = "contact-word" style = "margin-top:5%;"> ~Welcome to send an Email or Message to me~ 
+							<p class = "contact-word" >New Taipei City / Tainan City (Taiwan) </p>
+							<p class = "contact-word" >Email : a54383813@gmail.com</p>
+						</div>
+					</div>
+					<div class = "center-block" id = "contact-icon">
+						<ul class = "center-block">
+							<li >
+								<a href = "https://www.facebook.com/mengzeh" target = "_new"><i class="fa fa-facebook-square"></i></a>
+							</li>
+							<li>
+								<a href = "https://github.com/TseHang" target = "_new"><i class="fa fa-github-square"></i></a>
+							</li>
+							<li>
+								<a href = "https://www.instagram.com/hang_tse/" target = "_new"><i class = "fa fa-instagram"></i></a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- About-scroll-top-icon color:rgba(230, 230 , 230 , 0.8)-->
+					<div class = "smoothscroll" style = "padding-top:1%">
+						<a class = "center-block" href = "#wrap"><i class = "fa fa-chevron-up"></i></a>
+					</div>
+					<div >
+						<p id = "copyrigh-word"> <i class = "fa fa-copyright"></i> Copyright 2015 Meng-Tse Hang </p>
+					</div>
+
+				</div>
+			</div>
+		</div>		
+	</div>
+
+
+	<script type="text/javascript" src="index.js"></script>
+
+	</body>
+
+</head>
+</html>

@@ -1,0 +1,313 @@
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-family: '微軟正黑體', Helvetica, Arial, sans-serif; 
+	font-weight:bold;
+}
+body{
+}
+ul , li{
+	display:inline;
+}
+.navbar{
+	margin-bottom:0px;
+	background-color:rgba(30, 0, 30, 0.15);
+}
+.nav-text{
+	font-size:15px;
+	margin:0px 3px ;
+	font-weight:900;
+	color : white;
+	text-shadow: 0.5px 1px 0.5px #000;
+	border:solid rgba(0, 0, 0, 0) 2px;
+}
+.nav-text:hover{
+	color: black;
+	border:solid black 2px;
+	transition:color 0.5s;
+	transition:border 0.5s;
+	-moz-transition:color border 0.5s;
+    -webkit-transition:color border 0.5s;
+    -o-transition:color border 0.5s;    
+}
+#wrap{
+	background-image: url(pic/wrap.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 0px;
+	background-repeat: no-repeat no-repeat;
+}
+#word{
+	position:absolute;
+	top:82%;
+	left:9%;
+	width:60%;
+	border-radius: 10px;	
+}
+#wrap-name{
+	text-decoration:none;
+	text-shadow: 2px 3px 5px #000;
+	letter-spacing: 1.5px;
+	font-family: 'Indie Flower', cursive;
+	font-size:55px;
+	color:#FFDAB9;
+}
+#wrap-name:hover{
+	font-size:57px;
+	text-shadow: 3px 5px 6px #000;
+	transition: text-shadow 0.2s;
+	transition: font-size 0.08s;
+}
+#word p{
+	letter-spacing: 1.5px;
+	line-height: 44px;
+	text-shadow: 2px 3px 5px #000;
+	font-size: 22px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#about{
+	margin-top:8px;
+	height:83%;
+	background-color: rgba(210,210,210,0.6);
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+
+}
+#resume{
+	margin-top:5px;
+	height:31%;
+	background-image: url(pic/resume-head.jpg);
+	background-size:  88% 100% ;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+	background-repeat: no-repeat no-repeat;
+}
+#motto{
+	height:77%;
+	background-image: url(pic/motto-background.jpg);
+	background-size: auto ;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+	border-radius: 10px;
+}
+#contact{
+	margin-top: 3px;
+	background-color: 
+}
+#about-header{
+	margin:0px;
+	text-align:center ;
+	padding:6% 8% 0px 8%;
+	font-size:35px;
+}
+#about-pic-header{
+	height : 35% ;
+	left:10%;
+	margin-top: 15%;
+	position:absolute;
+}
+#about-word{
+	margin-top:5%;
+	left:42%;
+	width:47%;
+	position:absolute;
+}
+#about-name{
+	font-size:25px;
+	font-family:'Montserrat', sans-serif;
+	font-weight:bold;
+}
+#about-story{
+	margin-top:5%;
+	font-size:18px;
+	color: rgba(0,0,30,0.6);
+	font-family:'Montserrat', sans-serif;
+	font-weight:normal;
+}
+#about-story-end{
+	font-size:20px;
+	color: rgba(0,0,30,0.8);
+	font-family:'Montserrat', sans-serif;
+	font-weight:bold;
+}
+#icon-social{
+	margin-top:27%;
+	font-size:40px;
+}
+#icon-social ul{
+	margin-left:17.9%;
+}
+#icon-social li{
+	padding:0px 100px 0px 100px ;	
+}
+#icon-social li i{
+	color:rgba(20,20,30,0.35);
+}
+#icon-social li i:hover{
+	color:black;
+	transition:color 0.5s;
+}
+.resume-word p{
+	font-weight:normal;
+	font-family:'Montserrat', sans-serif;
+}
+#resume-header{
+	margin:0px;
+	text-align:center ;
+	padding:10% 8% 0px 8%;
+	font-size:35px;
+}
+.resume-left{
+	position: absolute;
+	font-size:20px;
+	left:13%;
+	text-align:center;
+	width:13%;
+}
+.resume-right{
+	position: absolute;
+	font-size:18px;
+	right:16%;
+	width:50%;
+	color: rgba(0,0,30,0.6);
+	font-family:'Montserrat', sans-serif;
+}
+#resume-education{
+	border-bottom:2px solid rgba(20,20,30,0.35) ;
+	height:50%;
+	width:78.5%;
+}
+#resume-word{
+	border-bottom:2px solid rgba(20,20,30,0.35) ;
+	height:91%;
+	width:78.5%;
+}
+#resume-extra{
+	border-bottom:2px solid rgba(20,20,30,0.35) ;
+	height:90%;
+	width:78.5%;
+}
+.resume-left-block{
+	margin-top:20%;
+}
+.resume-word-name{
+	margin-top:5%;
+	font-size:23px;
+	color:black;
+}
+#motto-header{
+	margin:0px;
+	text-align:center ;
+	padding:6% 8% 0px 8%;
+	font-size:35px;
+}
+#motto-box{
+	width:60%;
+	height:70%;
+}
+.motto-word{
+	margin-top:10%;
+	font-size: 40px ;
+	color: #FFFAFA;
+	text-shadow: 1px 2px 1px #000;
+}
+#motto1{
+	text-align:center;
+	font-family:'Bad Script', cursive;
+}
+#motto1-chinese{
+	width:550px;
+	border-radius: 50px;
+	margin-top:50px;
+	background-color: rgba(230, 230 , 230 , 0.3);
+}
+#motto2{
+	text-align:center;
+	line-height: 40px;
+	font-family: 'Bad Script', cursive;
+}
+#motto2-sub{
+	font-family: 'Courgette', cursive;
+	text-align:right ;
+	font-size:14px;
+}
+#contact-box{
+	padding:0px ;
+	height:70%;
+	background-image: url(pic/star.jpg);
+	background-size: cover ;
+	background-attachment: fixed;
+	background-position: 50% 10px;
+	background-repeat: no-repeat no-repeat;
+	border-top:solid black 3px;
+	border-bottom:solid black 3px;
+}
+#contact-img{
+	width:50%;
+	margin-right:10%;
+	margin-top:3%;
+	border-radius:30px;
+}
+.contact-word{
+	font-family: 'Coming Soon', cursive;
+	letter-spacing: 1px;
+	font-size:20px;
+	line-height:32px;
+}
+#contact-name{
+	margin-left:3%;
+	margin-top:10%;
+	font-size:46px;
+	text-shadow: 1px 1px 1px (20,20,30,0.8);
+	font-family: 'Indie Flower', cursive;
+}
+#contact-icon{
+	margin-top:0.5%;
+	height:85px;
+	font-size:40px;
+}
+#contact-icon ul{
+	margin-left:17.9%;
+}
+#contact-icon li{
+	padding:0px 100px 0px 100px ;	
+}
+#contact-icon li i{
+	color:rgba(230, 230 , 230 , 0.8);
+}
+#contact-icon li i:hover{
+	color:rgba(20,20,30,1) ;
+	transition:color 0.5s;
+}
+.smoothscroll{
+	padding-left:48.5%;
+	font-size:42px;
+}
+.smoothscroll a i{
+	color:rgba(50,40,50,0.9);
+}
+.smoothscroll a i:hover{
+	color:#66CDAA;
+	transition:color 0.3s;
+}
+#copyrigh-word{
+	padding-top:1%;
+	text-align: center;
+	font-family: 'Coming Soon', cursive;
+	font-size:12px;
+}
