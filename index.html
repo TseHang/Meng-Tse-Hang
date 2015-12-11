@@ -15,11 +15,7 @@
     <script type="text/javascript" src="jquery.easing.1.3.js"></script>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
-    	@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-    	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-    	@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
-    	@import url(https://fonts.googleapis.com/css?family=Courgette);
-    	@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+    	@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:400,700|Orbitron:500|Courgette|Coming+Soon|Bad+Script);
     </style>
 
     <link rel="stylesheet" href="index.css" type="text/css" />
@@ -49,11 +45,16 @@
 			</div>
 		</nav>
 		<div class = "container-fluid" id = "wrap" style= "height:100%">
-			<div id = "word">
-				<a id = "wrap-name" href = "#about">   Meng-Tse Hang</a>
-				<p style = "text-shadow: 1px 2px 2px #FFDAB9"> Just a boy, catching his dream , step by step ...</p>
+			<div class = "container-fluid" style = "margin:0;height:100%;background-color: rgba(30, 50 , 30 , 0.2);">
+				<div id = "wrap-speak">
+					<p >Try to Click it !&nbsp;<i class = "fa fa-comment-o" style = "font-size:30px"></i></p>
+				</div>
+				<div id = "word">
+					<i class = "fa fa-hand-o-right wrap-finger"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a id = "wrap-name" href = "#about">Meng-Tse Hang</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class = "fa fa-hand-o-left wrap-finger"></i>
+					<p > Just a boy, catching his dream , step by step ...</p>
+				</div>
 			</div>
-			<!--
+			<!--  SmoothScroll !!
 			<div class = "smoothscroll" style = "margin-top:52%;">
 				<a class = "center-block" href = "#about"><i style:hover= "color:white;"class = "fa fa-chevron-down"></i></a>
 			</div>
@@ -91,7 +92,6 @@
 		</div>
 		
 		<div class = "center-block" id = "resume">
-
 			<!-- resume-header-->
 			<div id = "resume-header">
 				<p style = "border-bottom : 2px solid black; color:black">-  RESUME - </p>
@@ -112,7 +112,7 @@
 					<p style = "text-align:right"> • Sep. 2010 ~ June. 2013 </p>
 				</div>
 			</div>
-			<div class = "center-block" id = "resume-word" >
+			<div class = "center-block" id = "resume-work" >
 				<div class = "resume-left">
 					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #66CDAA;">WORK</p>
 				</div>
@@ -150,14 +150,14 @@
 				</div>
 			</div>
 		</div>
-		<div class = "container-fluid resume-word" style = "height:134%">
+		<div class = "container-fluid resume-word" style = "height:142%">
 			<!-- About-scroll-down-icon-->
-			<div class = "smoothscroll" style = "padding-top:69%">
+			<div class = "smoothscroll" style = "padding-top:73%">
 				<a class = "center-block" href = "#motto"><i class = "fa fa-chevron-down"></i></a>
 			</div>
 		</div>
 		
-		<div class = "center-block thumbnail carousel slide" data-ride="carousel" data-interval = "3000" id = "motto" style = "width:88%">
+		<div class = "center-block thumbnail carousel slide" data-ride="carousel" data-interval = "4000" id = "motto" style = "width:88%">
 			<div class= "container-fluid" id = "motto-header">
 				<p style = "border-bottom : 2px solid black; color:black ;"> -  MOTTO - </p>
 			</div>
@@ -178,8 +178,8 @@
 
 				<div class="item motto-word">
 					<p id = "motto2"> Who are you ? Where are you ? <br><br> When ? What time ? <br><br><br> Take out the trash and see.</p>
-					<p id = "motto2-sub" style = "color:rgba(0,0,30,0.8); text-shadow: 0px 0px 0px white;"> From the film &lt;&nbsp;Peaceful warrior&nbsp;&gt;</p>
-					<p id = "motto2-sub" style = "color:rgba(0,0,30,0.8); text-shadow: 0px 0px 0px white;">&lt;&nbsp;深夜加油站遇見蘇格拉底&nbsp;&gt;</p>
+					<p id = "motto2-sub" style = "color:black; text-shadow: 0px 0px 0px white;"> From the film &lt;&nbsp;Peaceful warrior&nbsp;&gt;</p>
+					<p id = "motto2-sub" style = "color:black; text-shadow: 0px 0px 0px white;">&lt;&nbsp;深夜加油站遇見蘇格拉底&nbsp;&gt;</p>
 				</div>
 			</div>
 
@@ -194,9 +194,9 @@
 		    </a>
 		</div>
 
-		<div class = "container" style = "height:23%">
+		<div class = "container" style = "height:23%;">
 			<!-- About-scroll-down-icon-->
-			<div class = "smoothscroll" style = "padding-top:5%">
+			<div class = "smoothscroll" style = "margin:0px;padding-top:5%">
 				<a class = "center-block" href = "#contact"><i class = "fa fa-chevron-down"></i></a>
 			</div>
 		</div>
@@ -217,10 +217,10 @@
 					<div class = "center-block" id = "contact-icon">
 						<ul class = "center-block">
 							<li >
-								<a href = "https://www.facebook.com/mengzeh" target = "_new"><i class="fa fa-facebook-square"></i></a>
+								<a href = "https://www.facebook.com/mengzeh" target = "_new"><i class="fa fa-facebook"></i></a>
 							</li>
 							<li>
-								<a href = "https://github.com/TseHang" target = "_new"><i class="fa fa-github-square"></i></a>
+								<a href = "https://github.com/TseHang" target = "_new"><i class="fa fa-github"></i></a>
 							</li>
 							<li>
 								<a href = "https://www.instagram.com/hang_tse/" target = "_new"><i class = "fa fa-instagram"></i></a>
@@ -229,7 +229,7 @@
 					</div>
 
 					<!-- About-scroll-top-icon color:rgba(230, 230 , 230 , 0.8)-->
-					<div class = "smoothscroll" style = "padding-top:1%">
+					<div class = "smoothscroll" style = "margin:0px;ppadding-top:1%">
 						<a class = "center-block" href = "#wrap"><i class = "fa fa-chevron-up"></i></a>
 					</div>
 					<div >

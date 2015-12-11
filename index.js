@@ -31,8 +31,12 @@ $("#nav-li5").hover(function(){
 */
 
 
-$("#word").load(function(){
-	fadeIn() ;
+$("#word a").on('mouseover', function(){
+  $("#wrap-speak").css("visibility" , "visible") ;
+});
+
+$("#word a").on('mouseout', function(){
+  $("#wrap-speak").css("visibility" , "hidden") ;
 });
 
 var hash ;
