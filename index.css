@@ -44,8 +44,8 @@ ul , li{
 	position:absolute;
 	text-align: center;
 	top:32%;
-	left:18%;
-	width:22.5%;
+	left:19.5%;
+	width:21%;
 	padding-top: 0.5%;
 	font-size: 32px;
 	color :white;
@@ -159,9 +159,13 @@ ul , li{
 #icon-social{
 	margin-top:27%;
 	font-size:40px;
+	padding-left:0px;
+	padding-right:0px;
 }
 #icon-social ul{
-	margin-left:17.9%;
+	padding-left:0px;
+	padding-right:0px;
+	text-align: center;
 }
 #icon-social li{
 	padding:0px 10.2% 0px 10.2% ;	
@@ -259,7 +263,7 @@ ul , li{
 }
 #contact-box{
 	padding:0px ;
-	height:73%;
+	height:74%;
 	background-image: url(pic/star.jpg);
 	background-size: cover ;
 	background-attachment: fixed;
@@ -290,10 +294,14 @@ ul , li{
 #contact-icon{
 	margin-top:0%;
 	height:85px;
+	padding-left:0px;
+	padding-right:0px;
 	font-size:40px;
 }
 #contact-icon ul{
-	margin-left:19%;
+	padding-left:0.5%;
+	padding-right:0px;
+	text-align:center;
 }
 #contact-icon li{
 	padding:0px 10.2% 0px 10.2% ;	
@@ -306,7 +314,9 @@ ul , li{
 	transition:color 0.5s;
 }
 .smoothscroll{
-	padding-left:48.5%;
+	text-align: center;
+	padding-left:0px;
+	padding-right:0px;
 	font-size:42px;
 }
 .smoothscroll a i{
