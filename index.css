@@ -177,7 +177,7 @@ ul , li{
 	color:black;
 	transition:color 0.5s;
 }
-.resume-word p{
+.resume-inline-word p{
 	font-weight:normal;
 	font-family:'Montserrat', sans-serif;
 }
@@ -204,24 +204,26 @@ ul , li{
 }
 #resume-education{
 	border-bottom:2px solid rgba(20,20,30,0.35) ;
-	height:50%;
+	height:55%;
 	width:78.5%;
 }
 #resume-work{
 	border-bottom:2px solid rgba(20,20,30,0.35) ;
-	height:95%;
+	height:100%;
 	width:78.5%;
 }
 #resume-extra{
 	border-bottom:2px solid rgba(20,20,30,0.35) ;
-	height:93%;
+	height:98%;
 	width:78.5%;
 }
 .resume-left-block{
-	margin-top:20%;
+	margin-top:0%;
+	padding-top:20%;
 }
 .resume-word-name{
-	margin-top:5%;
+	margin-top:0%;
+	padding-top:5%;
 	font-size:23px;
 	color:black;
 }
@@ -246,9 +248,9 @@ ul , li{
 	font-family:'Bad Script', cursive;
 }
 #motto1-chinese{
-	width:550px;
+	width:80%;
 	border-radius: 50px;
-	margin-top:50px;
+	margin-top:7%;
 	background-color: rgba(230, 230 , 230 , 0.3);
 }
 #motto2{
