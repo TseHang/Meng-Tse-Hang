@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style = "height:100%">
+<html style = "height:100% ;font-size: 100%;">
 <head>
 	<title> Meng-Tse </title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -21,9 +21,9 @@
 
     <link rel="stylesheet" href="index.css" type="text/css" />
 
-	<body style = "height:100%" >
-		<nav class = "navbar navbar-fixed-top container-fluid" style = "height:53px;"role = "navigation">
-			<div class = "col-md-10 col-md-push-1 " >
+	<body style = "height:100%; font-size: 1em;" >
+		<nav class = "navbar navbar-fixed-top container-fluid" role = "navigation">
+			<div class = "col-md-10 col-md-push-1" >
 				<ul class = "navbar-nav nav" >
 					<li class = "nav-li" id = "nav-li1">
 						<a href = "#wrap" class = "nav-text" > HOME</a>
@@ -44,9 +44,9 @@
 			</div>
 		</nav>
 		<div class = "container-fluid" id = "wrap" style= "height:100%">
-			<div class = "container-fluid" style = "margin:0;height:100%;background-color: rgba(30, 50 , 30 , 0.2);">
+			<div class = "container-fluid" id = "wrap-back">
 				<div id = "wrap-speak">
-					<p >Try to Click !&nbsp;<i class = "fa fa-comment-o" style = "font-size:30px"></i></p>
+					<p >Try to Click !&nbsp;<i class = "fa fa-comment-o" ></i></p>
 				</div>
 				<div id = "word">
 					<i class = "fa fa-hand-o-right wrap-finger"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a id = "wrap-name" href = "#about">Meng-Tse Hang</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class = "fa fa-hand-o-left wrap-finger"></i>
@@ -60,15 +60,15 @@
 			-->
 		</div>
 		<div class = "container-fluid" id = "about">
-			<div class = "container-fluid" style = "height: 87%; padding:0;" >
-				<img src = "pic/bighead.jpg" id = "about-pic-header" class = "img-thumbnail" alt = "Bigheader"></img>
+			<div class = "container-fluid" style = "height:83%; padding:0;" >
 				<div class= "container-fluid" id = "about-header">
 					<p style = "border-bottom : 2px solid black;"> -  ABOUT - </p>
 				</div>
+				<img src = "pic/bighead.jpg" id = "about-pic-header" class = "img-thumbnail" alt = "Bigheader"></img>
 				<div class = "center-block" id = "about-word">
 					<p id = "about-name"> Meng-Tse Hang (杭孟澤）</p>
 					<p id = "about-story"> Just an ordinary Taiwanese College Student, who has various crazy ideas in life. Meng-Tse is a do-spirit person. He likes to create and try something new and funny. Sometimes Meng-Tse is few words, cause he is thinking while so many feelings touching his heart. He dreams, even it seems unreachable. But so what...</p>
-					<p id = "about-story-end" style = "margin-top:12px;">「 No matter how hard it is,</p>
+					<p id = "about-story-end" style = "margin-top:0.8em;">「 No matter how hard it is,</p>
 					<p id = "about-story-end" style = "text-align:right"> it's enough to laugh while pursuing. 」 </p>
 					<!--他總是會幻想很多不同於常人的有趣idea 喜歡在生活中找尋一些有趣的事情來做,心懷一股大志,即使夢想遙不可及,那又怎樣,我相信,即使過程中再累,最後笑著就夠了-->
 				</div>
@@ -87,7 +87,7 @@
 				</ul>
 			</div>
 			<!-- About-scroll-down-icon-->
-			<div class = "smoothscroll" style = "padding-top:0px;">
+			<div class = "smoothscroll" >
 				<a class = "center-block" href = "#resume"><i class = "fa fa-chevron-down"></i></a>
 			</div>
 		</div>
@@ -98,19 +98,19 @@
 				<p style = "border-bottom : 2px solid black; color:black">-  RESUME - </p>
 			</div>
 		</div>
-		<div class = "container-fluid resume-inline-word" style = "height:100%; margin-top:3px;">
+		<div class = "container-fluid resume-inline-word" style = "height:260%; margin-top:3px;position:relative;">
 			<div class = "center-block" id = "resume-education" >
 				<div class = "resume-left">
 					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #FF8C00;">EDUCATION</p>
 				</div>
 				<div class = "resume-right">
 					<p class = "resume-word-name" style = "font-weight:bold;">National Cheng Kung University</p>
-					<p style = "font-size:16px;"> &nbsp;&nbsp;&nbsp;&nbsp;Bachelor in Computer Science and Information Engineering</p>
-					<p style = "text-align:right;margin-top:8px"> • Sep. 2013 ~ June. 2017 </p>
-					<p class = "resume-word-name" style = "font-weight:bold;">The Affiliated Senior High School of National Taiwan Normal University</p>
-					<p style = "margin-top:8px"> - The PR (Public relation Practitioner) of 38th Club Conference
+					<p class = "resume-sub"> &nbsp;&nbsp;&nbsp;&nbsp;Bachelor in Computer Science and Information Engineering</p>
+					<p class = "resume-date"> • Sep. 2013 ~ June. 2017 </p>
+					<p class = "resume-word-name" >The Affiliated Senior High School of National Taiwan Normal University</p>
+					<p > - The PR (Public relation Practitioner) of 38th Club Conference
 					<p> - Join the guitar club.</p>
-					<p style = "text-align:right"> • Sep. 2010 ~ June. 2013 </p>
+					<p class = "resume-date"> • Sep. 2010 ~ June. 2013 </p>
 				</div>
 			</div>
 			<div class = "center-block" id = "resume-work" >
@@ -119,16 +119,16 @@
 				</div>
 				<div class = "resume-right">
 					<p class = "resume-word-name" style = "font-weight:bold;">Website Designing Engineer (Part-Time of Job) </p>
-					<p style = "margin-top:12px; text-align:right;"> • July. 2015 ~ still </p>
-					<p class = "resume-word-name" style = "font-weight:bold;">The Intern in Tripda</p>
-					<p style = "font-size:16px"> &nbsp;&nbsp;&nbsp;&nbsp;Tripda is a like Startup company in Taiwan. The core value is to prompt carpooling (riding together), a rare culture in Taiwan, so facing new challenges and problems everyday. We do marketing from the base, like joining local activities or distributing the fliers.
-					<p style = "margin-top:12px"> - The intern.
-					<p style = "text-align:right"> • June. 2015 </p>
-					<p class = "resume-word-name" style = "font-weight:bold;">The Expert in Campus of Windows8 at Micorsoft Company in Taiwan</p>
-					<p style = "font-size:16px;"> &nbsp;&nbsp;&nbsp;&nbsp;The experts have to market Windows8, and then ask for filling a questionnaire. Not like general marketing way like one-to-one, I held many small speechs, and asked teachers for giving me some time to speeching.</p>
-					<p style = "margin-top:12px"> - The third prize in the final marketing competition.</p>
+					<p class = "resume-date"> • July. 2015 ~ still </p>
+					<p class = "resume-word-name">The Intern in Tripda</p>
+					<p class = "resume-sub"> &nbsp;&nbsp;&nbsp;&nbsp;Tripda is a like Startup company in Taiwan. The core value is to prompt carpooling (riding together), a rare culture in Taiwan, so facing new challenges and problems everyday. We do marketing from the base, like joining local activities or distributing the fliers.
+					<p > - The intern.
+					<p class = "resume-date"> • June. 2015 </p>
+					<p class = "resume-word-name" >The Expert in Campus of Windows8 at Micorsoft Company in Taiwan</p>
+					<p class = "resume-sub"> &nbsp;&nbsp;&nbsp;&nbsp;The experts have to market Windows8, and then ask for filling a questionnaire. Not like general marketing way like one-to-one, I held many small speechs, and asked teachers for giving me some time to speeching.</p>
+					<p > - The third prize in the final marketing competition.</p>
 					<p> - Utilize the Social Network Tools to propaganda and prompt my speeching skills.</p>
-					<p style = "text-align:right;"> • Apr. 2013 ~ June. 2013 </p>
+					<p class = "resume-date"> • Apr. 2013 ~ June. 2013 </p>
 				</div>
 			</div>
 			<div class = "center-block" id = "resume-extra" >
@@ -150,12 +150,11 @@
 					<p style = "text-align:right;"> Working: • July. 2, 2015 ~ July. 15, 2015 </p>
 				</div>
 			</div>
-		</div>
-		<div class = "container-fluid resume-word" style = "height:155%">
 			<!-- About-scroll-down-icon-->
-			<div class = "smoothscroll" style = "padding-top:82%">
+			<div class = "smoothscroll" id = "resume-smooth" >
 				<a class = "center-block" href = "#motto"><i class = "fa fa-chevron-down"></i></a>
 			</div>
+
 		</div>
 		
 		<div class = "center-block thumbnail carousel slide" data-ride="carousel" data-interval = "4000" id = "motto" style = "width:88%">
@@ -179,8 +178,8 @@
 
 				<div class="item motto-word">
 					<p id = "motto2"> Who are you ? Where are you ? <br><br> When ? What time ? <br><br><br> Take out the trash and see.</p>
-					<p id = "motto2-sub" style = "color:black; text-shadow: 0px 0px 0px white;"> From the film &lt;&nbsp;Peaceful warrior&nbsp;&gt;</p>
-					<p id = "motto2-sub" style = "color:black; text-shadow: 0px 0px 0px white;">&lt;&nbsp;深夜加油站遇見蘇格拉底&nbsp;&gt;</p>
+					<p id = "motto2-sub" > From the film &lt;&nbsp;Peaceful warrior&nbsp;&gt;</p>
+					<p id = "motto2-sub" >&lt;&nbsp;深夜加油站遇見蘇格拉底&nbsp;&gt;</p>
 				</div>
 			</div>
 
@@ -197,7 +196,7 @@
 
 		<div class = "container" style = "height:23%;">
 			<!-- About-scroll-down-icon-->
-			<div class = "smoothscroll" style = "margin:0px;padding-top:5%">
+			<div class = "smoothscroll" id = "motto-smooth">
 				<a class = "center-block" href = "#contact"><i class = "fa fa-chevron-down"></i></a>
 			</div>
 		</div>
@@ -205,12 +204,12 @@
 			<div class = "container-fluid" id = "contact-box">
 				<div class = "container-fluid" style = "background-color: rgba(230, 230 , 230 , 0.4);height:100%; padding-left:0px;padding-right:0px;">
 					<div class = "row">
-						<div class = "col-md-6" style = "text-align:right; padding:2% 0px 0px 0px">
+						<div class = "col-md-6" id = "contact-div-img">
 							<img class = "img-thumbnail" id = "contact-img" src = "pic/contact.jpg"></img>
 						</div>
-						<div class = "col-md-6" style = "height:279px">
+						<div class = "col-md-6" id = "contact-div-word">
 							<p id = "contact-name" >Meng - Tse Hang</p>
-							<p class = "contact-word" style = "margin-top:5%;"> ~Welcome to send an Email or Message to me~ 
+							<p class = "contact-word" id ="contact-word-first"> ~Welcome to send an Email or Message to me~ 
 							<p class = "contact-word" >New Taipei City / Tainan City (Taiwan) </p>
 							<p class = "contact-word" >Email : a54383813@gmail.com</p>
 						</div>
