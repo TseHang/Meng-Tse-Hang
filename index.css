@@ -10,30 +10,29 @@ html, div{
 ul , li{
 	display:inline;
 }
-nav{
-	height:54px;
-}
 .navbar {
 	margin-bottom:0px;
 	background-color:rgba(30, 0, 30, 0.15);
 }
-.navbar .col-md-10{
-	height:53px;
+.navbar ul{
 	margin:0px;
 	padding-left:0px;
 	padding-right:0px;
 }
-.navbar .col-md-10 .nav{
+.navbar .nav{
 	margin:auto;
-	width:43vw;
+	width:440px;
 	display:block;
 	float: initial;
 	text-align:center;
+
+}
+.navbar-nav>li>a{
+	padding:10px 14px;
 }
 .nav-text{
 	text-align:center;
-	font-size:1em;
-	margin:0px 3px ;
+	font-size:14px;
 	font-weight:900;
 	color : white;
 	text-shadow: 0.5px 1px 0.5px #000;
@@ -49,6 +48,7 @@ nav{
     -o-transition:color border 0.5s;    
 }
 #wrap{
+	height:100%;
 	padding:0;
 	background-image: url(pic/wrap.jpeg);
 	background-attachment: fixed;
@@ -86,8 +86,8 @@ nav{
 	position:absolute;
 	text-align: center;
 	top:79%;
-	left:20%;
-	width:60%;
+	left:9%;
+	width:80%;
 }
 #wrap-name{
 	text-decoration:none;
@@ -144,15 +144,23 @@ nav{
 	background-position: 50% 50%;
 	border-radius: 10px;
 }
+#motto-white{
+	height:23%;
+}
 #contact{
 	margin-top: 0.3125em;
-	background-color: 
+	height:68%;
+	padding:0px;
 }
 #about-header{
 	margin:0px;
 	text-align:center ;
 	padding:6% 8% 0px 8%;
 	font-size:2.2em;
+}
+#about-box{
+	height:83%;
+	padding:0;
 }
 #about-pic-header{
 	width : 27vw ;
@@ -178,11 +186,17 @@ nav{
 	font-family:'Montserrat', sans-serif;
 	font-weight:normal;
 }
-#about-story-end{
+.about-story-end{
 	font-size:1.25em;
 	color: rgba(0,0,30,0.8);
 	font-family:'Montserrat', sans-serif;
 	font-weight:bold;
+}
+#about-story-end-1{
+	margin-top:0.8em;
+}
+#about-story-end-2{
+	text-align:right;
 }
 #icon-social{
 	font-size:2.5em;
@@ -203,6 +217,11 @@ nav{
 #icon-social li i:hover{
 	color:black;
 	transition:color 0.5s;
+}
+.resume-inline-word{
+	height:260%;
+	margin-top:3px;
+	position:relative;
 }
 .resume-inline-word p{
 	font-weight:bold;
@@ -282,10 +301,12 @@ nav{
 	font-family:'Bad Script', cursive;
 }
 #motto1-chinese{
-	width:40vw;
 	border-radius: 3em;
 	margin-top:1.1em;
 	background-color: rgba(230, 230 , 230 , 0.3);
+}
+#motto1-chinese img{
+	width:40vw;
 }
 #motto2{
 	text-align:center;
@@ -340,6 +361,7 @@ nav{
 	padding-left:0px;
 	padding-right:0px;
 	font-size:2.5em;
+	padding-top:0.4em;
 }
 #contact-icon ul{
 	padding-left:0.5%;
@@ -385,38 +407,311 @@ nav{
 	font-size:0.8em;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and  (orientation: portrait) and (max-width:480px) {
 
-// 如果使用者視窗寬度 <= 480px，將字體大小變為 16px
 
-.div1 {
-
- font-size: 16px;
-
-}
 
 }
 
 @media screen and (max-width: 768px) {
 
-// 如果使用者視窗寬度 <= 768px，將字體大小變為 20px
+	nav{
+		display:none;
+	}
+	#wrap{
+		height:93%;
+	}
+	#wrap-speak{
+		font-size: 1em;
+		top:28%;
+		visibility: visible;
+		border:none;
+		background-color: transparent;
+	}
+	.wrap-finger{
+		font-size: 1.1em;
+	}
+	#wrap-name{
+		font-size:2em;
+	}
+	#wrap-name:hover{
+		font-size:2.3em;
+	}	
+	#word{
+		top:70%;
+	}
+	#word p{
+		font-size:0.8em;
+	}
 
-.div1 {
+	#about{
+		height:160%;
+	}
+	#about-box{
+		height:92%;
+	}
+	#about-header{
+		font-size: 1.3em;
+		padding:1em 0 0 0 ; 
+	}
+	#about-pic-header{
+		width : 50vw ;
+		left:9em;
+		top:0em;
+	}
+	#about-word{
+		left:1em;
+		top:1em;
+		width:88%;
+	}
+	#about-name{
+		font-size:1.2em;
+		text-align: center;
+	}
+	#about-story{
+		font-size:0.85em;
+	}
+	.about-story-end{
+		font-size:0.95em;
+		margin:0;
+	}
+	#about-story-end-1{
+		position: relative;
+		left: 0em;
+		margin-top:0.5em; 
+	}
+	#icon-social{
+		font-size:1.8em;
+	}
+	#about .smoothscroll{
+		padding-top: 0.1em;
+	}
 
- font-size: 20px;
+	#resume{
+		height:28%;
+	}
+	.resume-inline-word{
+		height:440%;
+		margin-top:3px;
+		position:relative;
+	}
+	#resume-header{
+		font-size: 1.3em;
+		padding-top: 8%;
+	}
+	.resume-word-name{
+		padding-top:0.8em;
+	}
+	.resume-left{
+		position:static;
+		width:100%;
+		margin-top:3%;
+		text-align: center;
+	}
+	.resume-left-block{
+		padding-top:0%;
+	}
+	.resume-right{
+		position:static;
+		font-size:0.8em;
+		width:100%;
+	}
+	.resume-right .resume-sub{
+		font-size:0.8em;
+	}
+	#resume-education{
+		border:none;
+	}
+	#resume-work{
+		border:none;
+		height:38%;
+	}
+	#resume-smooth{
+		top:-1%;
+	}
+
+	#motto{
+		height:90%;
+	}
+	#motto-white{
+		height:10%;
+	}
+	#motto-header{
+		font-size: 1.3em;
+	}
+	.motto-word{
+		font-size:1.3em;
+		margin-top:6%;
+	}
+	#motto-smooth{
+		padding-top:0em;
+	}
+
+	#contact{
+		margin-top: 0.3125em;
+		height:110%;
+	}
+	#contact-box{
+		height:100%;
+	}
+	#contact-div-img{
+		padding:1em 0 0 0;
+		text-align:center;
+	}
+	#contact-img{
+		width:40vw;
+	}
+	#contact-div-word{
+		padding:1em 0 0 0;
+		text-align: center;
+	}
+	#contact-name{
+		font-size:2em;
+	}
+	#contact-word-first{
+		margin-top:1em;
+	}
+	.contact-word{
+		font-size:0.9em;
+		line-height:1.1em;
+	}
+	#contact-icon {
+		padding-top:0em;
+		font-size:1.8em;
+	}
+
+
+	.smoothscroll{
+		font-size:1.5em;
+	}
+	#copyrigh-word{
+		font-size:0.1em;
+	}
+
+}
+@media screen and  (orientation: portrait) and (max-width:768px) {
+
+}
+@media screen and (min-width:769px) and (max-width: 1200px) {
+
+	.navbar-nav > li > a.nav-text{
+		padding:6px 8px;
+		font-size:10px;
+	}
+	.navbar{
+		min-height:0px;
+	}
+	.navbar .nav{
+		width:340px;
+	}
+	#wrap{
+		height:93%;
+	}
+	#wrap-speak{
+		font-size: 1.2em;
+		top:23%;
+	}
+	.wrap-finger{
+		font-size: 1.8em;
+	}
+	#wrap-name{
+		font-size:3.1em;
+	}
+	#word{
+		top:70%;
+	}
+	#word p{
+		font-size:1.1em;
+	}
+
+	#about-header{
+		font-size: 1.6em;
+	}
+	#about-word{
+		left:10em;
+		top:-7em;
+		width:44%;
+	}
+	#about-name{
+		font-size:1em;
+	}
+	#about-story{
+		font-size:0.85em;
+	}
+	.about-story-end{
+		font-size:1em;
+		margin:0;
+	}
+	#about-story-end-1{
+		position: relative;
+		left: -3em;
+		margin-top:0.5em; 
+	}
+	#icon-social{
+		font-size:1.8em;
+	}
+	#about .smoothscroll{
+		padding-top: 0.5em;
+	}
+
+	#resume-header{
+		font-size: 1.6em;
+		padding-top: 8%;
+	}
+	.resume-word-name{
+		padding-top:0.8em;
+	}
+	.resume-left{
+		font-size:1em;
+	}
+	.resume-right{
+		font-size:0.8em;
+	}
+	.resume-right .resume-sub{
+		font-size:0.8em;
+	}
+
+	#motto-header{
+		font-size: 1.6em;
+	}
+	.motto-word{
+		font-size:1.8em;
+	}
+
+	#contact-name{
+		font-size:2em;
+	}
+	#contact-word-first{
+		margin-top:1em;
+	}
+	.contact-word{
+		font-size:0.9em;
+		line-height:1.1em;
+	}
+	#contact-icon {
+		padding-top:0.5em;
+		font-size:1.8em;
+	}
+
+
+	.smoothscroll{
+		font-size:2em;
+	}
+	#copyrigh-word{
+		font-size:0.1em;
+	}
 
 }
 
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-
-// 如果使用者視窗寬度介於 768px ~ 992px，將字體大小變為 30px
-
-.div1 {
-
- font-size: 30px;
-
-}
-
+@media screen and (min-width:1600px) {
+	.navbar-nav > li > a.nav-text{
+		padding:18px 20px;
+		font-size:20px;
+	}
+	.navbar .nav{
+		width:615px;
+	}
+	#contact-icon{
+		padding-top: 1em;
+	}
 }

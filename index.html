@@ -23,7 +23,7 @@
 
 	<body style = "height:100%; font-size: 1em;" >
 		<nav class = "navbar navbar-fixed-top container-fluid" role = "navigation">
-			<div class = "col-md-10 col-md-push-1" >
+			
 				<ul class = "navbar-nav nav" >
 					<li class = "nav-li" id = "nav-li1">
 						<a href = "#wrap" class = "nav-text" > HOME</a>
@@ -41,12 +41,12 @@
 						<a href = "#contact" class = "nav-text" > CONTACT</a>
 					</li>
 				</ul>
-			</div>
+			
 		</nav>
-		<div class = "container-fluid" id = "wrap" style= "height:100%">
+		<div class = "container-fluid" id = "wrap" >
 			<div class = "container-fluid" id = "wrap-back">
 				<div id = "wrap-speak">
-					<p >Try to Click !&nbsp;<i class = "fa fa-comment-o" ></i></p>
+					<p >Click my name!&nbsp;<i class = "fa fa-comment-o" ></i></p>
 				</div>
 				<div id = "word">
 					<i class = "fa fa-hand-o-right wrap-finger"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a id = "wrap-name" href = "#about">Meng-Tse Hang</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class = "fa fa-hand-o-left wrap-finger"></i>
@@ -60,7 +60,7 @@
 			-->
 		</div>
 		<div class = "container-fluid" id = "about">
-			<div class = "container-fluid" style = "height:83%; padding:0;" >
+			<div class = "container-fluid" id = "about-box" >
 				<div class= "container-fluid" id = "about-header">
 					<p style = "border-bottom : 2px solid black;"> -  ABOUT - </p>
 				</div>
@@ -68,8 +68,8 @@
 				<div class = "center-block" id = "about-word">
 					<p id = "about-name"> Meng-Tse Hang (杭孟澤）</p>
 					<p id = "about-story"> Just an ordinary Taiwanese College Student, who has various crazy ideas in life. Meng-Tse is a do-spirit person. He likes to create and try something new and funny. Sometimes Meng-Tse is few words, cause he is thinking while so many feelings touching his heart. He dreams, even it seems unreachable. But so what...</p>
-					<p id = "about-story-end" style = "margin-top:0.8em;">「 No matter how hard it is,</p>
-					<p id = "about-story-end" style = "text-align:right"> it's enough to laugh while pursuing. 」 </p>
+					<p class = "about-story-end" id = "about-story-end-1" >「 No matter how hard it is,</p>
+					<p class = "about-story-end" id = "about-story-end-2" > it's enough to laugh while pursuing. 」 </p>
 					<!--他總是會幻想很多不同於常人的有趣idea 喜歡在生活中找尋一些有趣的事情來做,心懷一股大志,即使夢想遙不可及,那又怎樣,我相信,即使過程中再累,最後笑著就夠了-->
 				</div>
 			</div>
@@ -98,7 +98,7 @@
 				<p style = "border-bottom : 2px solid black; color:black">-  RESUME - </p>
 			</div>
 		</div>
-		<div class = "container-fluid resume-inline-word" style = "height:260%; margin-top:3px;position:relative;">
+		<div class = "container-fluid resume-inline-word" >
 			<div class = "center-block" id = "resume-education" >
 				<div class = "resume-left">
 					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #FF8C00;">EDUCATION</p>
@@ -132,22 +132,22 @@
 				</div>
 			</div>
 			<div class = "center-block" id = "resume-extra" >
-				<div class = "resume-left" style = "width:16%">
+				<div class = "resume-left" >
 					<p class = "resume-left-block" style = "font-weight:bold;border-bottom : 4px solid #FF4500;">EXTRA - ACTIVITIES</p>
 				</div>
 				<div class = "resume-right">
 					<p class = "resume-word-name" style = "font-weight:bold;">The Manager of Activity’s Department of CSIE Student Association.</p>
-					<p style = "margin-top:12px;"> - Be active to get more enterprise sponsor.</p>
+					<p> - Be active to get more enterprise sponsor.</p>
 					<p> - Be good at negotiating, project managing, allocating and schedule planning.</p>
-					<p style = "text-align:right;"> • June. 2014 ~ July. 2015</p>
+					<p class = "resume-date"> • June. 2014 ~ July. 2015</p>
 					<p class = "resume-word-name" style = "font-weight:bold;">The President of Christmas Dance Party United by Five Student Association</p>
-					<p style = "font-size:16px"> &nbsp;&nbsp;&nbsp;&nbsp;A crazy party for college students in the night-club. They can dance and drink without hesitation.</p>
-					<p style = "margin-top:12px"> - The tickets were sold out in one week.
-					<p style = "text-align:right"> • July. 2014 ~ Dec. 2014 </p>
+					<p class = "resume-sub"> &nbsp;&nbsp;&nbsp;&nbsp;A crazy party for college students in the night-club. They can dance and drink without hesitation.</p>
+					<p > - The tickets were sold out in one week.
+					<p class = "resume-date"> • July. 2014 ~ Dec. 2014 </p>
 					<p class = "resume-word-name" style = "font-weight:bold;">2015 Yunnan Servic Learning Program </p>
-					<p style = "font-size:16px"> &nbsp;&nbsp;&nbsp;&nbsp;It's an International Volunteer Plan held by NCKU Service Learning Center.
-					<p style = "margin-top:12px;text-align:right;"> Preparing: • Oct. 2014 ~ July. 2015 </p>
-					<p style = "text-align:right;"> Working: • July. 2, 2015 ~ July. 15, 2015 </p>
+					<p class = "resume-sub"> &nbsp;&nbsp;&nbsp;&nbsp;It's an International Volunteer Plan held by NCKU Service Learning Center.
+					<p class = "resume-date"> Preparing: • Oct. 2014 ~ July. 2015 </p>
+					<p class = "resume-date"> Working: • July. 2, 2015 ~ July. 15, 2015 </p>
 				</div>
 			</div>
 			<!-- About-scroll-down-icon-->
@@ -172,7 +172,7 @@
 				<div class="item active motto-word" >
 					<p id = "motto1"> Nothing is more valuable than youth.<br> Nothing is easier wasted than youth.</p>
 					<div class = "center-block" id = "motto1-chinese" >
-						<img class = "center-block" style = "width:500px;"src = "pic/motto1.png"></img>
+						<img class = "center-block" src = "pic/motto1.png"></img>
 					</div>
 				</div>
 
@@ -194,20 +194,21 @@
 		    </a>
 		</div>
 
-		<div class = "container" style = "height:23%;">
+		<div class = "container" id = "motto-white" >
 			<!-- About-scroll-down-icon-->
 			<div class = "smoothscroll" id = "motto-smooth">
 				<a class = "center-block" href = "#contact"><i class = "fa fa-chevron-down"></i></a>
 			</div>
 		</div>
-		<div class = "container-fluid" id = "contact" style = "height:68%; padding:0px;">
+
+		<div class = "container-fluid" id = "contact" >
 			<div class = "container-fluid" id = "contact-box">
 				<div class = "container-fluid" style = "background-color: rgba(230, 230 , 230 , 0.4);height:100%; padding-left:0px;padding-right:0px;">
 					<div class = "row">
-						<div class = "col-md-6" id = "contact-div-img">
+						<div class = "col-md-6 col-sm-6 col-xs-12" id = "contact-div-img">
 							<img class = "img-thumbnail" id = "contact-img" src = "pic/contact.jpg"></img>
 						</div>
-						<div class = "col-md-6" id = "contact-div-word">
+						<div class = "col-md-6 col-sm-6 col-xs-12" id = "contact-div-word">
 							<p id = "contact-name" >Meng - Tse Hang</p>
 							<p class = "contact-word" id ="contact-word-first"> ~Welcome to send an Email or Message to me~ 
 							<p class = "contact-word" >New Taipei City / Tainan City (Taiwan) </p>
