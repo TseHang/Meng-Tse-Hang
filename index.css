@@ -406,203 +406,38 @@ ul , li{
 	font-family: 'Coming Soon', cursive;
 	font-size:0.8em;
 }
-
-@media screen and  (orientation: portrait) and (max-width:480px) {
-
-
-
+#end-top{
+	margin:0px;
+	padding-top:1%;
 }
 
-@media screen and (max-width: 768px) {
-
-	nav{
-		display:none;
+@media screen and (min-width:1600px) {
+	.navbar-nav > li > a.nav-text{
+		padding:18px 20px;
+		font-size:20px;
 	}
-	#wrap{
-		height:93%;
-	}
-	#wrap-speak{
-		font-size: 1em;
-		top:28%;
-		visibility: visible;
-		border:none;
-		background-color: transparent;
-	}
-	.wrap-finger{
-		font-size: 1.1em;
-	}
-	#wrap-name{
-		font-size:2em;
-	}
-	#wrap-name:hover{
-		font-size:2.3em;
-	}	
-	#word{
-		top:70%;
-	}
-	#word p{
-		font-size:0.8em;
-	}
-
-	#about{
-		height:160%;
-	}
-	#about-box{
-		height:92%;
-	}
-	#about-header{
-		font-size: 1.3em;
-		padding:1em 0 0 0 ; 
-	}
-	#about-pic-header{
-		width : 50vw ;
-		left:9em;
-		top:0em;
-	}
-	#about-word{
-		left:1em;
-		top:1em;
-		width:88%;
-	}
-	#about-name{
-		font-size:1.2em;
-		text-align: center;
-	}
-	#about-story{
-		font-size:0.85em;
-	}
-	.about-story-end{
-		font-size:0.95em;
-		margin:0;
-	}
-	#about-story-end-1{
-		position: relative;
-		left: 0em;
-		margin-top:0.5em; 
-	}
-	#icon-social{
-		font-size:1.8em;
-	}
-	#about .smoothscroll{
-		padding-top: 0.1em;
-	}
-
-	#resume{
-		height:28%;
-	}
-	.resume-inline-word{
-		height:440%;
-		margin-top:3px;
-		position:relative;
-	}
-	#resume-header{
-		font-size: 1.3em;
-		padding-top: 8%;
-	}
-	.resume-word-name{
-		padding-top:0.8em;
-	}
-	.resume-left{
-		position:static;
-		width:100%;
-		margin-top:3%;
-		text-align: center;
-	}
-	.resume-left-block{
-		padding-top:0%;
-	}
-	.resume-right{
-		position:static;
-		font-size:0.8em;
-		width:100%;
-	}
-	.resume-right .resume-sub{
-		font-size:0.8em;
-	}
-	#resume-education{
-		border:none;
-	}
-	#resume-work{
-		border:none;
-		height:38%;
-	}
-	#resume-smooth{
-		top:-1%;
-	}
-
-	#motto{
-		height:90%;
-	}
-	#motto-white{
-		height:10%;
-	}
-	#motto-header{
-		font-size: 1.3em;
-	}
-	.motto-word{
-		font-size:1.3em;
-		margin-top:6%;
-	}
-	#motto-smooth{
-		padding-top:0em;
-	}
-
-	#contact{
-		margin-top: 0.3125em;
-		height:110%;
-	}
-	#contact-box{
-		height:100%;
-	}
-	#contact-div-img{
-		padding:1em 0 0 0;
-		text-align:center;
-	}
-	#contact-img{
-		width:40vw;
+	.navbar .nav{
+		width:615px;
 	}
 	#contact-div-word{
-		padding:1em 0 0 0;
-		text-align: center;
+		padding:6em 0 0 0;
 	}
-	#contact-name{
-		font-size:2em;
+	#contact-icon{
+		padding-top: 1em;
 	}
-	#contact-word-first{
-		margin-top:1em;
-	}
-	.contact-word{
-		font-size:0.9em;
-		line-height:1.1em;
-	}
-	#contact-icon {
-		padding-top:0em;
-		font-size:1.8em;
-	}
-
-
-	.smoothscroll{
-		font-size:1.5em;
-	}
-	#copyrigh-word{
-		font-size:0.1em;
-	}
-
 }
-@media screen and  (orientation: portrait) and (max-width:768px) {
 
-}
-@media screen and (min-width:769px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 
 	.navbar-nav > li > a.nav-text{
 		padding:6px 8px;
-		font-size:10px;
+		font-size:14px;
 	}
 	.navbar{
 		min-height:0px;
 	}
 	.navbar .nav{
-		width:340px;
+		width:385px;
 	}
 	#wrap{
 		height:93%;
@@ -615,13 +450,17 @@ ul , li{
 		font-size: 1.8em;
 	}
 	#wrap-name{
-		font-size:3.1em;
+		font-size:3.3em;
+	}
+	#wrap-name:hover{
+		font-size:3.6em;
 	}
 	#word{
 		top:70%;
 	}
 	#word p{
 		font-size:1.1em;
+		line-height: 2.5em;
 	}
 
 	#about-header{
@@ -658,6 +497,9 @@ ul , li{
 		font-size: 1.6em;
 		padding-top: 8%;
 	}
+	.resume-inline-word{
+		height:230%;
+	}
 	.resume-word-name{
 		padding-top:0.8em;
 	}
@@ -666,6 +508,7 @@ ul , li{
 	}
 	.resume-right{
 		font-size:0.8em;
+		margin-top: 2em;
 	}
 	.resume-right .resume-sub{
 		font-size:0.8em;
@@ -678,6 +521,9 @@ ul , li{
 		font-size:1.8em;
 	}
 
+	#contact-div-word{
+		padding:4.4em 0 0 0 ;
+	}
 	#contact-name{
 		font-size:2em;
 	}
@@ -703,15 +549,350 @@ ul , li{
 
 }
 
-@media screen and (min-width:1600px) {
-	.navbar-nav > li > a.nav-text{
-		padding:18px 20px;
-		font-size:20px;
+@media screen and (max-width: 768px) {
+
+	nav{
+		display:none;
 	}
-	.navbar .nav{
-		width:615px;
+	#wrap-speak{
+		font-size: 1em;
+		top:28%;
+		visibility: visible;
+		border:none;
+		background-color: transparent;
+	}
+	.wrap-finger{
+		font-size: 1.1em;
+	}
+	#wrap-name{
+		font-size:2em;
+	}
+	#wrap-name:hover{
+		font-size:2.3em;
+	}	
+
+	#word p{
+		font-size:0.8em;
+	}
+
+	#about{
+		height:170%;
+	}
+	#about-box{
+		height:91%;
+	}
+	#about-header{
+		font-size: 1.3em;
+		padding:1em 0 0 0 ; 
+	}
+	#about-pic-header{
+		width : 50vw ;
+		left:9em;
+		top:0em;
+	}
+	#about-word{
+		left:1em;
+		top:1em;
+		width:88%;
+	}
+	#about-name{
+		font-size:1.2em;
+		text-align: center;
+	}
+	.about-story-end{
+		font-size:0.95em;
+	}
+	#about-story-end-1{
+		left: 0em;
+	}
+
+	#about .smoothscroll{
+		padding-top: 0.1em;
+	}
+
+	#resume{
+		height:28%;
+	}
+	.resume-inline-word{
+		height:440%;
+	}
+	#resume-header{
+		font-size: 1.3em;
+	}
+	.resume-left{
+		position:static;
+		width:100%;
+		margin-top:3%;
+	}
+	.resume-left-block{
+		padding-top:0%;
+	}
+	.resume-right{
+		position:static;
+		width:100%;
+	}
+	#resume-education{
+		border:none;
+	}
+	#resume-work{
+		border:none;
+	}
+	#resume-smooth{
+		top:-1%;
+	}
+
+	#motto{
+		height:90%;
+	}
+	#motto-white{
+		height:10%;
+	}
+	#motto-header{
+		font-size: 1.3em;
+	}
+	.motto-word{
+		font-size:1.3em;
+		margin-top:6%;
+	}
+
+	#contact{
+		margin-top: 0.3125em;
+		height:115%;
+	}
+	#contact-box{
+		height:100%;
+	}
+	#contact-div-img{
+		padding:1em 0 0 0;
+		text-align:center;
+	}
+	#contact-img{
+		width:40vw;
+	}
+	#contact-div-word{
+		padding:1em 0 0 0;
+		text-align: center;
+	}
+	#contact-icon {
+		padding-top:0em;
+	}
+
+
+	.smoothscroll{
+		font-size:1.5em;
+	}
+
+}
+
+@media screen and  (orientation: portrait) and (max-width:480px) {
+	#wrap{
+		height:100%;
+	}
+	#wrap-speak{
+		top:70%;
+		left:42%;
+		width:200px;
+	}
+
+	#word{
+		width:100%;
+		left:0%;
+		top:80%;
+	}
+
+	#about{
+		height:110%;
+	}
+	#about-box{
+		height:90%;
+	}
+	#about-pic-header{
+		width : 70vw ;
+		left:2em;
+	}
+	#about-word{
+		left:0em;
+	}
+	
+
+	#resume{
+		height:15%;
+	}
+	.resume-inline-word{
+		height:350%;
+
+	}
+
+	#motto{
+		height:70%;
+	}
+	#motto-box{
+		width:90%;
+	}
+	.motto-word p{
+		font-size:0.8em;
+	}
+	#motto1{
+		line-height:4em;
+	}
+	#motto1-chinese img{
+		width:70vw;
+	}
+	#motto2{
+		line-height:1.1em;
+		margin-top:2.5em;
+	}
+	#motto2-sub{
+		font-size:0.1em;
+	}
+
+	#contact{
+		margin-top: 0.3125em;
+		height:80%;
+	}
+	#contact-img{
+		width:75vw;
 	}
 	#contact-icon{
-		padding-top: 1em;
+		padding-top:1em;
 	}
+
 }
+
+@media screen and  (orientation: portrait) and (min-width:481px) and (max-width:768px) {
+
+	#wrap-speak{
+		font-size:2em;
+		top:22%;
+		left:12.5%;
+	}
+	#wrap-name{
+		font-size:3.8em;
+	}
+	#wrap-name:hover{
+		font-size:4.1em;
+	}
+	.wrap-finger{
+		font-size:2em;
+	}
+	#word p{
+		font-size:1.2em;
+	}
+	#about{
+		height:75%;
+	}
+	#about-header{
+		font-size:1.6em;
+		padding-top:2em;
+	}
+	#about-pic-header{
+		left:10em;
+	}
+	#about-name{
+		font-size:2em;
+	}
+	#about-story{
+		font-size:1.2em;
+	}
+	.about-story-end{
+		font-size:1.4em;
+	}
+	#icon-social{
+		font-size:2.2em;
+	}
+
+	#resume{
+		height:21%;
+	}
+	.resume-inline-word{
+		height:220%;
+	}
+	#resume-header{
+		font-size:1.6em;
+		padding-top:14%;
+	}
+	.resume-left{
+		font-size:2em;
+	}
+	.resume-right{
+		font-size:1em;
+	}
+	.resume-right .resume-sub{
+		font-size:0.9em;
+	}
+	.resume-word-name{
+		font-size:1.5em;
+	}
+
+	#motto{
+		height:60%;
+	}
+	#motto-header{
+		font-size:1.6em;
+		padding-top:11%;
+	}
+	#motto-box{
+		width:90%;
+	}
+	.motto-word{
+		font-size:2.3em;
+		margin-top:14%;
+	}
+	#motto1-chinese img{
+		width:60vw;
+	}
+
+	#contact{
+		height:70%;
+	}
+	#contact-div-img{
+		width:100%;
+	}
+	#contact-img{
+		width:52vw;
+		margin-top:8%;
+	}
+	#contact-div-word{
+		width:100%;
+	}
+	#contact-name{
+		font-size: 3.3em;
+	}
+	.contact-word{
+		font-size:1.8em;
+	}
+	#contact-icon{
+		font-size:2.2em ;
+	}
+
+	.smoothscroll{
+		font-size:2.5em;
+	}
+	#end-top{
+		padding-top:15%;
+	}
+
+
+}
+@media screen and  (orientation: portrait) and (width:768px) {
+
+	nav{
+		display:block;
+	}
+	.navbar-nav > li > a.nav-text{
+		padding:16px 8px;
+		font-size:17px;
+	}
+	.navbar{
+		min-height:0px;
+	}
+	.navbar .nav{
+		width:440px;
+	}
+	.resume-inline-word{
+		height:200%;
+	}
+
+}
+
+
